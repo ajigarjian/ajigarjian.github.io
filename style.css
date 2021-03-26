@@ -1,0 +1,20 @@
+html, body { /* for entire page...*/
+ margin: 0; /* no extra spacing */
+ padding: 0; /* no extra padding */
+ -webkit-user-select: none; /* some browser users cannot click text */
+ -moz-user-select: none; /* mozilla browser users cannot click text */
+ user-select: none; /* safari browser users cannot click text */
+ -ms-user-select: none; /* ms browser users cannot click text */
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('OpenSans-Light.ttf');
+}
+
+#Title{
+ text-align:center;
+ font-size:38px;
+ font-family:Open Sans,Arial;
+ margin-top:50px;
+}
